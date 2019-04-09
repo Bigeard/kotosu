@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    // "watch": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "outDir": "./js/",
+  },
+  "files": ["../node_modules/@types/node/index.d.ts"],
+  "include": ["./ts/*"],
+  "exclude": ["node_modules"]
+}

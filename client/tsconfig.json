@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "module": "esnext",
+    "target": "esnext",
+    // "watch": true
+  },
+  "dependencies": {
+    "socket.io": "*"
+  },
+  "include": ["./ts/*"],
+}
